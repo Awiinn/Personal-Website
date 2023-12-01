@@ -1,0 +1,36 @@
+header{
+    background-color: darkgray;
+    border: 2px solid black;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-size: 100%;
+}
+
+nav{
+    height: 50px;
+}
+
+nav ul{
+    margin-left: auto;
+    margin-right: auto;
+}
+nav li{
+    display: inline-block;
+    height: 100%;
+    width: 20%;
+}
+
+nav li a{
+    background-color: darkgray;
+    color: blanchedalmond;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+nav li a:hover{
+    background-color: lightgray;
+}
+
+h1{
+    text-align: center;
+}
