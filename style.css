@@ -23,7 +23,7 @@ nav li{
 nav li a{
     background-color: darkgray;
     color: blanchedalmond;
-    font-size: 20px;
+    font-size: 25px;
     text-decoration: none;
 }
 
@@ -33,4 +33,10 @@ nav li a:hover{
 
 h1{
     text-align: center;
+}
+
+.img{
+    text-align: center;
+    height: 10%;
+    background-color: darkgray;
 }
