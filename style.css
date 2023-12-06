@@ -1,42 +1,108 @@
-header{
-    background-color: darkgray;
-    border: 2px solid black;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    background-size: 100%;
+* {
+  margin: 0;
 }
 
-nav{
-    height: 50px;
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: darkgray;
 }
 
-nav ul{
-    margin-left: auto;
-    margin-right: auto;
-}
-nav li{
-    display: inline-block;
-    height: 100%;
-    width: 20%;
+nav li {
+  float: left;
+  border-right: 2px solid black;
 }
 
-nav li a{
-    background-color: darkgray;
-    color: blanchedalmond;
-    font-size: 25px;
-    text-decoration: none;
+nav li:last-child {
+  border-right: none;
 }
 
-nav li a:hover{
-    background-color: lightgray;
+nav li a,
+.dropbtn {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 16px 15px;
+  text-decoration: none;
 }
 
-h1{
-    text-align: center;
+nav li a:hover,
+.dropdown:hover,
+.dropbtn:hover {
+  background-color: lightcoral;
 }
 
-.img{
-    text-align: center;
-    height: 10%;
-    background-color: darkgray;
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  background-color: lightgray;
+  display: none;
+  position: absolute;
+  min-width: 150px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.4);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  padding: 16px 15px;
+  text-decoration: none;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: white;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.active {
+  background-color: lightcoral;
+}
+
+.right {
+  float: right;
+}
+
+h1 {
+  text-align: center;
+}
+
+.img {
+  text-align: center;
+  width: 100%;
+  background-color: darkgray;
+}
+
+img {
+  height: 200px;
+  margin-top: 2px;
+  border: solid black 2px;
+}
+
+p {
+  margin: 20px;
+  text-align: center;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.stuff {
+  margin: 40px;
+  border: solid black 2px;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+form {
+  margin: 20px;
+  text-align: left;
 }
