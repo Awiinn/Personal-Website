@@ -62,7 +62,8 @@ li.dropdown {
 }
 
 .active {
-  background-color: lightcoral;
+  /* background-color: lightcoral; */
+  text-decoration: underline;
 }
 
 .right {
